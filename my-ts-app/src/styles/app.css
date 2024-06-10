@@ -1,0 +1,21 @@
+/* src/styles/app.css */
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .board-card {
+    flex: 1 1 300px;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 600px) {
+    .board-card {
+      flex: 1 1 100%;
+    }
+  }
+  
