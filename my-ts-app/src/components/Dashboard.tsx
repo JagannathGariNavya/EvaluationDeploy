@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useBoards } from '../hooks/useBoards';
 import BoardList from './BoardList';
 import { createBoard, deleteBoard, getBoards } from '../services/trelloService';
